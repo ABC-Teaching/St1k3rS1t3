@@ -1,0 +1,90 @@
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Brush Script MT;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Brush Script MT;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: Brush Script MT;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-family: Brush Script MT;
+}
+
+p {
+  text-align: center;  
+  color: white;
+  font-size: 15px;
+  font-family: Brush Script MT;
+}
+button {
+  display: inline-block;
+  padding: 7.5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 12px;
+  
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  background-image: url('./img/bg.gif');
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: White;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  background-color: #04AA6D;
+  border: 2px solid Black;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: DodgerBlue;
+  color: white;
+  border: 1px solid black;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.center {
+  text-align: center;
+}
